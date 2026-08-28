@@ -353,7 +353,8 @@ The Hash Calculator was opened in the web browser:
 https://networkwalks.com/hash-calculator/
 ```
 
-📸 **Screenshot:** Hash Calculator landing page.
+<img width="1267" height="680" alt="password_cracker" src="https://github.com/user-attachments/assets/26aad48b-2dee-46ee-9a85-4aa72cb99ac9" />
+
 
 ---
 
@@ -361,7 +362,8 @@ https://networkwalks.com/hash-calculator/
 
 The locked PDF file was uploaded to the **PDF** tab of the Hash Calculator. The tool read the file locally (nothing uploaded to a server) and returned the crackable hash, starting with `$pdf$...`.
 
-📸 **Screenshot:** PDF hash extraction result, with revision, version, and key-length details.
+<img width="1036" height="689" alt="Screenshot 2026-08-28 214317" src="https://github.com/user-attachments/assets/06b324db-7528-46c7-bb87-70cb954dede1" />
+
 
 ---
 
@@ -369,7 +371,9 @@ The locked PDF file was uploaded to the **PDF** tab of the Hash Calculator. The 
 
 The complete hash value was copied, starting from `$pdf$`, making sure not to miss any part of it.
 
-📸 **Screenshot:** Copying the hash from the Hash Calculator.
+
+<img width="842" height="629" alt="Screenshot 2026-08-28 214347" src="https://github.com/user-attachments/assets/cdc69f27-6481-49c4-a89f-e89e9a640260" />
+
 
 ---
 
@@ -383,7 +387,9 @@ https://networkwalks.com/password-cracker/
 
 This tool hashes every word in a wordlist and matches it against the PDF password hash — the same idea John the Ripper uses.
 
-📸 **Screenshot:** Password Cracker landing page.
+<img width="1091" height="650" alt="Screenshot 2026-08-28 214905" src="https://github.com/user-attachments/assets/00222e84-a251-4420-abed-65322dd83167" />
+
+
 
 ---
 
@@ -391,7 +397,9 @@ This tool hashes every word in a wordlist and matches it against the PDF passwor
 
 The `$pdf$...` hash was pasted into the Password Cracker, and the attack was started using the built-in 100-password list.
 
-📸 **Screenshot:** Password Cracker running the dictionary attack.
+
+<img width="1090" height="649" alt="Screenshot 2026-08-28 214705" src="https://github.com/user-attachments/assets/fc1f10c8-3dcc-45bc-b5d6-223e37e979e4" />
+
 
 ---
 
@@ -414,15 +422,14 @@ The tool tried different candidate passwords until it found a match:
 
 **Recovered Password:** `password1`
 
-📸 **Screenshot:** "Password Cracked Successfully" result screen.
+
+<img width="1214" height="699" alt="Screenshot 2026-08-27 110104" src="https://github.com/user-attachments/assets/737af5d7-8001-493a-b076-af4743c4801f" />
 
 ---
 
 ## 📄 Step 8 — Open the Protected PDF
 
 The locked PDF file was opened, and the recovered password was entered at the Document Open Password prompt.
-
-📸 **Screenshot:** Entering the recovered password to unlock the PDF.
 
 ---
 
@@ -431,7 +438,9 @@ The locked PDF file was opened, and the recovered password was entered at the Do
 The protected PDF opened successfully, confirming the password had been correctly recovered, completing the lab.
 The steps were repeated for all other provided encrypted PDF files.
 
-📸 **Screenshot:** PDF successfully opened ("Congratulations! You have captured your 1st flag.").
+
+<img width="1216" height="629" alt="nw1" src="https://github.com/user-attachments/assets/450ce345-88ed-4f49-a9d1-7050d60b258e" />
+
 
 ---
 
