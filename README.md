@@ -84,7 +84,8 @@ Johnny GUI
              └── john.exe
 ```
 
-📸 **Screenshot:** Johnny configuration showing the selected `john.exe`.
+<img width="1081" height="720" alt="location_john" src="https://github.com/user-attachments/assets/c1873b89-9405-4ba2-8227-645ff3a515de" />
+
 
 ---
 
@@ -105,6 +106,8 @@ $pdf$...
 If additional characters such as `b'` appear before the hash, they should be removed before saving the hash.
 
 📸 **Screenshot:** PDF hash extraction result.
+<img width="1346" height="741" alt="Screenshot 2026-08-28 095555" src="https://github.com/user-attachments/assets/ecdef4d2-f545-4da5-ad49-2f34754f0c51" />
+
 
 ---
 
@@ -127,6 +130,8 @@ $pdf$...
 ```
 
 📸 **Screenshot:** `hash1.txt` containing the extracted hash.
+<img width="1048" height="615" alt="hash1txt" src="https://github.com/user-attachments/assets/ff47e89a-bc8c-4417-a8af-d4abde98ceda" />
+
 
 ---
 
@@ -143,6 +148,8 @@ hash1.txt
 file was selected and loaded into Johnny.
 
 📸 **Screenshot:** `hash1.txt` loaded into Johnny.
+<img width="877" height="677" alt="johhnyhash1" src="https://github.com/user-attachments/assets/b22450b3-8697-45a1-8708-dde2451138ca" />
+
 
 ---
 
@@ -159,7 +166,7 @@ The time required for the attack depends on factors such as:
 * Cracking method
 * Hash type
 
-📸 **Screenshot:** Johnny performing the password-cracking attack.
+
 
 ---
 
@@ -170,6 +177,8 @@ The password was successfully recovered by John the Ripper.
 The recovered password was then used to open the original encrypted PDF file.
 
 📸 **Screenshot:** Successfully recovered password.
+<img width="1003" height="687" alt="crack1" src="https://github.com/user-attachments/assets/5e963b76-0a17-4672-bb3b-45b3839cb02e" />
+
 
 ---
 
@@ -180,6 +189,8 @@ The encrypted PDF was opened using the recovered password.
 The successful opening of the PDF confirmed that the password had been correctly recovered.
 
 📸 **Screenshot:** Protected PDF successfully opened.
+<img width="1216" height="629" alt="nw1" src="https://github.com/user-attachments/assets/ce986622-e9b1-404c-b346-83242f3e1407" />
+
 
 The steps were repeated for all other provided encrypted PDF files.
 
