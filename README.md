@@ -352,8 +352,9 @@ The Hash Calculator was opened in the web browser:
 ```text
 https://networkwalks.com/hash-calculator/
 ```
+<img width="995" height="635" alt="Screenshot 2026-08-28 215439" src="https://github.com/user-attachments/assets/662d96a6-d555-45d6-a260-21985b26dfed" />
 
-<img width="1267" height="680" alt="password_cracker" src="https://github.com/user-attachments/assets/26aad48b-2dee-46ee-9a85-4aa72cb99ac9" />
+
 
 
 ---
