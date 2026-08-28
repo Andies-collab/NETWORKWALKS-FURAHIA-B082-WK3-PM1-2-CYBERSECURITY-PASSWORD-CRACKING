@@ -1,10 +1,10 @@
-# 🔐 1. Password Cracking with John the Ripper
+#  1. Password Cracking with John the Ripper
 
 Practical password-cracking exercise using **John the Ripper (JTR)** and **Johnny GUI** to recover the password of an encrypted PDF file in an authorized cybersecurity learning environment.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the use of **John the Ripper (JTR)** and **Johnny**, its graphical interface, to recover the password of a protected PDF file.
 
@@ -14,7 +14,7 @@ The practical focused on understanding how password-protected files can be teste
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The main objectives of this practical were to:
 
@@ -30,7 +30,7 @@ The main objectives of this practical were to:
 
 ---
 
-## 🛡️ Ethical Disclaimer
+##  Ethical Disclaimer
 
 This exercise was performed in an authorized cybersecurity learning environment using the provided password-protected PDF.
 
@@ -38,7 +38,7 @@ The techniques demonstrated in this project should only be used on files, accoun
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool                      | Purpose                                         |
 | ------------------------- | ----------------------------------------------- |
@@ -50,7 +50,7 @@ The techniques demonstrated in this project should only be used on files, accoun
 
 ---
 
-# ⚙️ Practical Procedure
+#  Practical Procedure
 
 ## Step 1 — Download and Install John the Ripper
 
@@ -105,7 +105,7 @@ $pdf$...
 
 If additional characters such as `b'` appear before the hash, they should be removed before saving the hash.
 
-📸 **Screenshot:** PDF hash extraction result.
+
 <img width="1346" height="741" alt="Screenshot 2026-08-28 095555" src="https://github.com/user-attachments/assets/ecdef4d2-f545-4da5-ad49-2f34754f0c51" />
 
 
@@ -129,7 +129,7 @@ Example structure:
 $pdf$...
 ```
 
-📸 **Screenshot:** `hash1.txt` containing the extracted hash.
+
 <img width="1048" height="615" alt="hash1txt" src="https://github.com/user-attachments/assets/ff47e89a-bc8c-4417-a8af-d4abde98ceda" />
 
 
@@ -147,7 +147,7 @@ hash1.txt
 
 file was selected and loaded into Johnny.
 
-📸 **Screenshot:** `hash1.txt` loaded into Johnny.
+
 <img width="877" height="677" alt="johhnyhash1" src="https://github.com/user-attachments/assets/b22450b3-8697-45a1-8708-dde2451138ca" />
 
 
@@ -176,7 +176,7 @@ The password was successfully recovered by John the Ripper.
 
 The recovered password was then used to open the original encrypted PDF file.
 
-📸 **Screenshot:** Successfully recovered password.
+
 <img width="1003" height="687" alt="crack1" src="https://github.com/user-attachments/assets/5e963b76-0a17-4672-bb3b-45b3839cb02e" />
 
 
@@ -188,7 +188,6 @@ The encrypted PDF was opened using the recovered password.
 
 The successful opening of the PDF confirmed that the password had been correctly recovered.
 
-📸 **Screenshot:** Protected PDF successfully opened.
 <img width="1216" height="629" alt="nw1" src="https://github.com/user-attachments/assets/ce986622-e9b1-404c-b346-83242f3e1407" />
 
 
@@ -196,7 +195,7 @@ The steps were repeated for all other provided encrypted PDF files.
 
 ---
 
-# 🔄 Password Cracking Workflow
+#  Password Cracking Workflow
 
 ```text
               Encrypted PDF
@@ -225,7 +224,7 @@ The steps were repeated for all other provided encrypted PDF files.
 
 ---
 
-# 🧠 What I Learned
+#  What I Learned
 
 Through this practical exercise, I gained hands-on experience with:
 
@@ -243,7 +242,7 @@ I also learned that password complexity has an important effect on the difficult
 
 ---
 
-# ⚠️ Challenges Encountered
+#  Challenges Encountered
 
 One challenge encountered during the practical was accessing the online PDF hash extraction website.
 
@@ -253,11 +252,11 @@ Despite the issue, the password-cracking process was successfully completed and 
 
 ---
 
-# ✅ Result
+#  Result
 
 The practical was successfully completed.
 
-**Result:** ✅ Password successfully recovered
+**Result:**  Password successfully recovered
 
 **Target:** Authorized password-protected PDF
 
@@ -269,7 +268,7 @@ The practical was successfully completed.
 
 ---
 
-# 📚 References
+#  References
 
 * **John the Ripper:** Openwall
 * **Johnny GUI:** Openwall
@@ -285,19 +284,19 @@ The practical was successfully completed.
 
 <br>
 
-# 🔐 2. Password Cracking with Networkwalks Tools
+#  2. Password Cracking with Networkwalks Tools
 
 Practical password-cracking exercise using the free, browser-based **Networkwalks Hash Calculator** and **Password Cracker** tools to recover the password of an encrypted PDF file, without installing any software.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates the use of two free, in-browser tools built by Networkwalks — the **Hash Calculator** and the **Password Cracker** — to recover the password of a protected PDF file.
 
 The exercise was completed as part of **Week 3 – Project Module 2** of the Networkwalks Cybersecurity Program.
 
-## 📖 Background
+##  Background
 
 Password cracking is the process of recovering a password from stored data or a protected file. Security professionals use it to test how strong a password is and to show why weak passwords are risky. If a password is short or common, it can be found quickly, which proves the need for strong passwords.
 
@@ -307,7 +306,7 @@ In this lab, two free online tools made by Networkwalks were used. First, the Ha
 
 ---
 
-## 🎯 Task
+##  Task
 
 **Crack the password of the attached PDF file (`My Locked PDF1.pdf`) using the Networkwalks Hash Calculator and Password Cracker tools on a Windows laptop.**
 
@@ -315,7 +314,7 @@ In this lab, two free online tools made by Networkwalks were used. First, the Ha
 
 ---
 
-## 🛡️ Ethical Disclaimer
+##  Ethical Disclaimer
 
 This exercise was performed in an authorized cybersecurity learning environment using the provided password-protected PDF.
 
@@ -323,7 +322,7 @@ The techniques demonstrated in this project should only be used on files, accoun
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool                                | Purpose                                                         |
 | ------------------------------------ | ---------------------------------------------------------------- |
@@ -333,7 +332,7 @@ The techniques demonstrated in this project should only be used on files, accoun
 
 ---
 
-# ⚙️ Solution / Practical Procedure
+#  Solution / Practical Procedure
 
 ## Step 1 — Download the Encrypted PDF
 
@@ -404,7 +403,7 @@ The `$pdf$...` hash was pasted into the Password Cracker, and the attack was sta
 
 ---
 
-## 🔓 Step 7 — Password Successfully Recovered
+## Step 7 — Password Successfully Recovered
 
 The tool tried different candidate passwords until it found a match:
 
@@ -428,7 +427,7 @@ The tool tried different candidate passwords until it found a match:
 
 ---
 
-## 📄 Step 8 — Open the Protected PDF
+##  Step 8 — Open the Protected PDF
 
 The locked PDF file was opened, and the recovered password was entered at the Document Open Password prompt.
 
@@ -445,7 +444,7 @@ The steps were repeated for all other provided encrypted PDF files.
 
 ---
 
-# 🔄 Password Cracking Workflow
+#  Password Cracking Workflow
 
 ```text
         Encrypted PDF (My Locked PDF1.pdf)
@@ -469,7 +468,7 @@ The steps were repeated for all other provided encrypted PDF files.
 
 ---
 
-# 🧠 What I Learned
+#  What I Learned
 
 Through this practical exercise, I gained hands-on experience with:
 
@@ -481,7 +480,7 @@ Through this practical exercise, I gained hands-on experience with:
 
 ---
 
-# ⚠️ Extra Notes
+#  Extra Notes
 
 * A simple 8-character password using only lowercase letters can be cracked in minutes, while a strong 12-character mixed password can take many years.
 * Over 24 billion username and password pairs are available on the dark web from past breaches.
@@ -490,11 +489,11 @@ Through this practical exercise, I gained hands-on experience with:
 
 ---
 
-# ✅ Result
+#  Result
 
 The practical was successfully completed.
 
-**Result:** ✅ Password successfully recovered
+**Result:**  Password successfully recovered
 
 **Target:** `My Locked PDF1.pdf` (authorized lab file)
 
@@ -506,7 +505,7 @@ The practical was successfully completed.
 
 ---
 
-# 📚 References
+#  References
 
 * **Networkwalks Hash Calculator:** [networkwalks.com/hash-calculator](https://networkwalks.com/hash-calculator/)
 * **Networkwalks Password Cracker:** [networkwalks.com/password-cracker](https://networkwalks.com/password-cracker/)
@@ -514,7 +513,7 @@ The practical was successfully completed.
 
 ---
 
-## 👨‍🏫 Mentor
+##  Mentor
 
 **Waqas Karim (CCIE)**
 
@@ -522,10 +521,10 @@ The practical was completed as part of the Networkwalks Cybersecurity Program un
 
 ---
 
-## 👤 Author
+##  Author
 
 **Furahia Mwampamba**
 
 **Cybersecurity Program — Batch B082**
 
-**Week 3 — Project Module 2**
+**Week 3 — Project Module 1 and 2**
